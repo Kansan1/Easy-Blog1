@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../images/newstar.jpg");
+}
+li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.clearfix:before,.clearfix:after{
+    content: "";
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+
+
+.create{
+    display: flex;
+    position: absolute;
+    top: 10%;
+    left: 11%;
+    border-radius: 15%;
+    background-color: rgba(255, 255, 255, 0.76);
+    backdrop-filter:blur(3px);
+    box-shadow: 14px 10px 92px 0px #c6ebf2;
+    width: 1200px;
+    height: 800px;
+}
+
+.why{
+    margin: 4% 0 6% 8%;
+}
+
+input{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 1200px;
+    height: 50px;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    font-size: 15%;
+}
+.text{
+    width: 1000px;
+    overflow-y: auto;
+    border-bottom: 2px solid #000;
+    font-size: 25px;
+}
+
+.context{
+    border:none;
+    outline: none;
+    resize: none;
+    background-color: rgba(225, 225, 225, 0.1);
+    margin-bottom: 10px;
+    border-bottom: 2px solid #000;
+    width: 1000px;
+    height: 600px;
+    font-size: 17px;
+}
+
+.submit{
+    display: block;
+    margin-left: 29%;
+    width: 400px;
+    height: 50px;
+    background-color:rgba(45, 68, 197, 0.5);
+    font-weight: 800;
+    font-size: 20px;
+
+}

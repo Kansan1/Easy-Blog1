@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../images/newstar.jpg);
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.clearfix:before,.clearfix:after{
+    content: "";
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+
+.dongh{
+    display: flex;
+    float: right;
+    width: 600px;
+    height: 420px;
+    position: absolute;
+    top: 60px;
+    right: 507px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    transition: .8s;
+}
+.onep,.twop,.threep,.fourp,.fivep{
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    transform-origin: left;
+    background-size: cover;
+    transition: calc(var(--i)*.9s);
+    z-index: calc(var(--i)*99);
+}
+.onep,.twop{
+    border: solid 20px #576574;
+    border-left: none;
+    top: -20px;
+    border-radius: 0 20px 20px 0;
+}
+.dongh:hover .onep{
+    border-left: #576574 20px solid;
+}
+.dongh:hover .twop,.dongh:hover .threep,.dongh:hover .fourp,.dongh:hover .fivep{
+    z-index: calc(var(--s)*-99);
+    transform: rotateY(-180deg);
+    transition: calc(var(--s)*.9s);
+}
+.dongh:hover{
+    transform: translateX(400px);
+}
+
+.box{
+    float: left;
+    position: absolute;
+    display: flex;
+    top: 53%;
+    left: 35%;
+    border-radius: 10%;
+    background: linear-gradient(
+            to left top,
+            rgba(225, 225, 225, 0.793),
+            rgba(225, 225, 225, 0.622),
+            rgba(225, 225, 225, 0.44)
+    );
+    backdrop-filter:blur(5px);
+    box-shadow: 14px 10px 92px 0px #c6ebf2;
+    width: 500px;
+    height: 300px;
+}
+
+.and{
+    margin: 10% 0 0 16%;
+    width: 350px;
+}
+
+h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 900;
+    color: black;
+    letter-spacing: .3em;
+}
+
+.sorry{
+    display: block;
+    margin-top: 7%;
+    font-size: 27px;
+    color: rgba(23, 20, 20, 0.7)
+}
+
+.exa{
+    margin-top: 7%;
+    color: rgba(108, 98, 98, 0.7);
+}
+
+ul{
+    color: rgba(108, 98, 98, 0.7);
+}
+
+.so{
+    float: left;
+    margin-left: 35%;
+    margin-top: 3%;
+    color: rgba(108, 98, 98, 0.7);
+}
+
+.or{
+    float: left;
+    margin-top: 3%;
+    color: rgba(108, 98, 98, 0.7);
+}
+a{
+    float: left;
+    margin-top: 3%;
+    color: black;
+    border: 1px solid #000;
+    font-weight: 600;
+}

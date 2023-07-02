@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="wb-2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/wb-2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

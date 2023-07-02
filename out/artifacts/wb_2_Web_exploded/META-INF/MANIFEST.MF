@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Created-By: IntelliJ IDEA
+Built-By: jiangle
+Build-Jdk: Amazon Corretto version 11.0.18
+Main-Class: org.springframework.web.servlet.DispatcherServlet
+Class-Path: lib/spring-webmvc-5.3.14.jar lib/spring-aop-5.3.14.jar lib/s
+ pring-beans-5.3.14.jar lib/spring-context-5.3.14.jar lib/spring-core-5.
+ 3.14.jar lib/spring-jcl-5.3.14.jar lib/spring-expression-5.3.14.jar lib
+ /spring-web-5.3.14.jar lib/commons-lang3-3.12.0.jar lib/servlet-api-2.5
+ .jar lib/tomcat-servlet-api-7.0.62.jar lib/fastjson-1.2.78.jar lib/neko
+ html-1.9.22.jar lib/xercesImpl-2.11.0.jar lib/xml-apis-1.4.01.jar lib/l
+ ogback-classic-1.2.3.jar lib/logback-core-1.2.3.jar lib/slf4j-api-1.7.2
+ 5.jar lib/javax.servlet-api-4.0.1.jar lib/mysql-connector-j-8.0.32.jar 
+ lib/protobuf-java-3.21.9.jar lib/spring-jdbc-5.2.7.RELEASE.jar lib/spri
+ ng-tx-5.2.7.RELEASE.jar lib/thymeleaf-spring5-3.0.12.RELEASE.jar lib/th
+ ymeleaf-3.0.12.RELEASE.jar lib/attoparser-2.0.5.RELEASE.jar lib/unbesca
+ pe-1.1.6.RELEASE.jar lib/jackson-databind-2.11.0.jar lib/jackson-annota
+ tions-2.11.0.jar lib/jackson-core-2.11.0.jar
+

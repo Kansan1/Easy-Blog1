@@ -1,0 +1,15 @@
+com\dao\PassageDao.class
+com\dao\PPassageDao.class
+com\bean\Data.class
+com\controller\Register.class
+com\controller\PassageController.class
+com\bean\Passage.class
+com\dao\UserDaolmpl.class
+Main.class
+com\util\JDBCUtil.class
+com\controller\Login.class
+com\dao\UserDao.class
+com\dao\PassageDaoImpl.class
+com\bean\User.class
+com\controller\Atest.class
+com\controller\PassageConJDCB.class

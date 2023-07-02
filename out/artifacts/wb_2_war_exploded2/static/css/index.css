@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.clearfix:before,.clearfix:after{
+    content: "";
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+
+
+
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.buding{
+    float: left;
+    margin-top: 0;
+}
+.header {
+    height: 54px;
+    background-color: black;
+}
+
+.header h1{
+    float: left;
+    margin-left: 10px;
+     color: white;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    line-height: 54px;
+}
+
+.nav{
+    float: left;
+    display: block;
+    margin-left: 40px;
+    height: 54px;
+}
+
+.nav li{
+    float: left;
+    margin-right: 26px;
+    
+}
+
+.nav li a{
+    display: block;
+    height: 54px;
+    line-height: 54px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.nav li a:hover{
+    border-bottom: 5px solid blue;
+}
+
+.sign{
+    float: right;
+    height: 50px;
+}
+
+.sign li{
+    float: left;
+    margin: 8px 21px 0 0;
+    width: 4em;
+}
+
+.sign li a{
+    display: block;
+    text-align: center;
+    line-height: 2.5em;
+    height: 2.5em;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.sign li:nth-child(1){
+    background-color: #4d70ed;
+}
+
+.sign li:nth-child(2){
+    background-color: #1f2f41;
+}
+.sign li:nth-child(3){
+    margin-right: 40px;
+    width: 1.5em;
+}
+
+.header .meihua{
+    float: right;
+    padding:109px 0 0 0;
+}
+
+.middle{
+    margin-top: 160px;
+    background-color: black;
+    text-align: left;
+    height: 300px;
+}
+
+.middle h2{
+    padding-top: 60px;
+    padding-bottom: 19px;
+    font-size: 38px;
+    color: white;
+}
+
+.middle p{
+    color: #7e828a;
+    font-size: 17px;
+    line-height: 1.5em;
+}
+
+.middle .kais{
+    float: left;
+    display: block;
+    margin: 12px 0 0 5px;
+    border: 1px dotted #fff;
+    width: 94px;
+    height: 30px;
+    background-color: #4e6cf9;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.middle .zhuc{
+    display: block;
+    float: left;
+    color: bisque;
+    margin-left: 25px;
+    width: 94px;
+    height: 30px;
+    text-align: center;
+    line-height: 54px;
+}
+
+.gongneng{
+    margin-top: 148px;
+    background-color: black;
+}
+
+.gongneng h2{
+    margin-left: 40%;
+    font-size: 38px;
+    color: white
+}
+
+.gongneng .p1{
+    margin: 11px 24% 9px 15%;
+    font-size: 17px;
+    line-height: 1.5em;
+    color: #7e828a;
+}
+.gongneng ul li{
+    float: left;
+    margin: 13px 42px 17px 110px;
+    width: 200px;
+    height: 180px;
+    background-color: #545454;
+}
+
+.gongneng p{
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    line-height: 1.5em;
+}
